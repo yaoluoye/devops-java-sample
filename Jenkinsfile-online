@@ -11,7 +11,7 @@ pipeline {
 
     environment {
         DOCKER_CREDENTIAL_ID = 'harbor-id'
-        GITHUB_CREDENTIAL_ID = 'github'
+        GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'kubeconfig'
         REGISTRY = 'registry.jasonyao.ga'
         DOCKERHUB_NAMESPACE = 'kubesphere'
